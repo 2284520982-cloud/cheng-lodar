@@ -410,14 +410,6 @@ pip install pycryptodome
 
 ---
 
-## 🔐 安全建议
-
-### 1. 保护你的Shellcode
-```bash
-# 不要提交到Git
-echo payload_x64.bin >> .gitignore
-echo payload_x64_advanced.h >> .gitignore
-```
 
 ### 2. 每次使用新密钥
 ```
