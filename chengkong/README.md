@@ -45,7 +45,8 @@
 |---------|------|
 | 360全家桶 | ✅ 已绕过 |
 | 火绒安全 | ✅ 已绕过 |
-| Windows Defender | ⚠️ 未测试 |
+| 卡巴斯基 | ✅ 已绕过 |
+| Windows Defender | ✅ 已绕过 |
 
 ---
 
@@ -409,15 +410,6 @@ pip install pycryptodome
 
 ---
 
-## 🔐 安全建议
-
-### 1. 保护你的Shellcode
-```bash
-# 不要提交到Git
-echo payload_x64.bin >> .gitignore
-echo payload_x64_advanced.h >> .gitignore
-```
-
 ### 2. 每次使用新密钥
 ```
 每次加密都会生成新的随机密钥
@@ -473,3 +465,4 @@ echo payload_x64_advanced.h >> .gitignore
 **构建日期**: 2026-01-13
 
 为安全研究社区用❤️制作
+
