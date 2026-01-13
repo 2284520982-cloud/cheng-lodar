@@ -1,4 +1,4 @@
-# ChengKong Ultimate Loader
+# ChengKong 单exe Loader
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://www.microsoft.com/windows)
